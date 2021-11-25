@@ -1,0 +1,52 @@
+'''Output'''
+
+As per data enter no. of Vehicles Per Hour(vph) allowed on Road X : 100
+As per data enter no. of Vehicles Per Hour(vph) allowed on Road Y : 200
+As per data enter no. of Vehicles Per Hour(vph) allowed on Road Z : 300
+As per data enter no. of Vehicles Per Hour(vph) allowed on Road W : 400
+
+The number of rows of the matrix : 4
+
+The number of columns of the matrix : 5
+
+Enter the entries in a single line (separated by space): 
+
+1 1 0 0 431 1 0 0 1 255 0 0 1 1 340 0 1 1 0 516
+
+
+The matrix is given by 
+ [[  1   1   0   0 431]
+ [  1   0   0   1 255]
+ [  0   0   1   1 340]
+ [  0   1   1   0 516]]
+
+
+Row reduced echelon form of the matrix is given by 
+ [[  1.   0.   0.   1. 255.]
+ [  0.   1.   0.  -1. 176.]
+ [  0.   0.   1.   1. 340.]
+ [  0.   0.   0.   0.   0.]]
+
+Vehicles Allowed to Pass as per data on Road X :  100.0
+
+Vehicles Allowed to Pass as per data on Road Y:  200.0
+
+Vehicles Allowed to Pass as per data on Road Z :  300.0
+
+Vehicles Allowed to Pass as per data on Road W :  400.0
+
+Vehicles Passing after calculation on Road X :  150.25000000000003
+
+Vehicles Passing after calculation on Road Y :  280.75
+
+Vehicles Passing after calculation on Road Z :  235.25000000000003
+
+Vehicles Passing after calculation on Road W :  104.75
+
+Traffic Flow Management on Road X is required
+
+Traffic Flow Management on Road Y is required
+
+No need of Traffic Flow management on Road Z
+
+No need of Traffic Flow management on Road W
